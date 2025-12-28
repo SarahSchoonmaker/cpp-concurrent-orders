@@ -85,7 +85,4 @@ cpp-concurrent-order-engine/
     test_determinism.cpp
 ```
 
-## Notes
 
-This is intentionally compact and dependency-free. Real trading systems might use lock-free queues, custom allocators,
-and per-symbol sharding; here we focus on *correctness* and *clean concurrency*.
