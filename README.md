@@ -10,7 +10,7 @@ It models a small “order pipeline”:
 - An `OrderEngine` maintains a shared in-memory ledger safely
 - Deterministic processing is achieved via a global sequence number + ordered commit
 
-## What this demonstrates (resume-ready)
+## Project Features
 
 - Modern C++17: RAII, STL, move semantics
 - Concurrency: `std::thread`, `std::mutex`, `std::condition_variable`, atomic seq
